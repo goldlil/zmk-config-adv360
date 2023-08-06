@@ -49,11 +49,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL     &kp N1    &kp N2  &kp UP_ARROW     &kp N4    &kp N5                        &tog 1         &mo 3      &kp N6     &kp N7   &kp DOWN     &kp N9     &kp N0  &kp MINUS
-  &kp TAB      &kp Q     &kp W         &kp L      &kp P     &kp B                         &none         &none       &kp J      &kp F      &kp U      &kp Y      &kp P   &kp BSLH
-  &kp ESC      &kp A     &kp R         &kp S      &kp T     &kp G                         &none     &kp LCTRL    &kp LALT                         &kp LGUI  &kp RCTRL      &none     &kp M  &tlb 3 N  &tlb KEYPAD_LAYER E    &kp I  &kp O    &kp SQT
-&kp LSHFT      &kp Z     &kp V         &kp C      &kp D     &kp X                         &none         &none    &kp HOME      &none      &none  &kp PG_UP      &none      &none     &kp Q     &kp H         &tlb 2 COMMA  &kp DOT  &kp K  &kp RSHFT
-    &mo 2  &kp GRAVE  &kp CAPS      &kp LEFT  &kp RIGHT  &kp BSPC  &tlb 3 RS(RA(RC(RG(SPACE))))  &kp LEFT_GUI  &kp ESCAPE  &kp ENTER  &kp SPACE     &kp UP   &kp DOWN   &kp LBKT  &kp RBKT     &mo 2
+&kp EQUAL     &kp N1    &kp N2  &kp UP_ARROW     &kp N4    &kp N5                        &tog 1         &mo 3      &kp N6     &kp N7   &kp DOWN     &kp N9        &kp N0  &kp MINUS
+  &kp TAB      &kp Q     &kp W         &kp L      &kp P     &kp B                         &none         &none       &kp J      &kp F      &kp U      &kp Y         &kp P   &kp BSLH
+  &kp ESC      &kp A     &kp R         &kp S      &kp T     &kp G                         &none     &kp LCTRL    &kp LALT                         &kp LGUI  &kp LEFT_ALT      &none     &kp M  &tlb 3 N  &tlb KEYPAD_LAYER E    &kp I  &kp O  &kp RIGHT
+&kp LSHFT      &kp Z     &kp V         &kp C      &kp D     &kp X                         &none         &none    &kp HOME      &none      &none  &kp PG_UP         &none      &none     &kp Q     &kp H         &tlb 2 COMMA  &kp DOT  &kp K  &kp RSHFT
+    &mo 2  &kp GRAVE  &kp CAPS      &kp LEFT  &kp RIGHT  &kp BSPC  &tlb 3 RS(RA(RC(RG(SPACE))))  &kp LEFT_GUI  &kp ESCAPE  &kp ENTER  &kp SPACE     &kp UP      &kp DOWN   &kp LBKT  &kp RBKT     &mo 2
             >;
         };
 
@@ -71,9 +71,9 @@
             bindings = <
 &kp F1           &kp F2       &kp HASH   &kp ASTERISK          &kp ASTRK            &kp F6  &tog 1  &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
  &kp A            &kp A      &kp MINUS     &kp DOLLAR          &kp UNDER         &kp GRAVE   &none  &none   &kp A   &kp A   &kp A    &kp A    &kp A    &kp A
- &kp A     &kp QUESTION  &kp BACKSLASH   &kp KP_EQUAL  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &none  &kp A   &kp A                    &kp A    &kp A    &none  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
- &kp A  &kp EXCLAMATION      &kp COLON  &kp SEMICOLON           &kp PLUS       &kp PERCENT   &none  &none   &kp A   &none   &none    &kp A    &none    &none  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
- &kp A            &kp A          &kp A          &kp A              &kp A             &kp A   &kp A  &kp A   &kp A   &kp A   &kp A    &kp A    &kp A    &kp A  &kp A  &kp A
+ &kp A     &kp QUESTION  &kp BACKSLASH   &kp KP_EQUAL  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &none  &kp A   &kp A                    &kp A    &kp A    &none  &kp A   &kp A  &kp A     &kp A  &kp A  &kp A
+ &kp A  &kp EXCLAMATION      &kp COLON  &kp SEMICOLON           &kp PLUS       &kp PERCENT   &none  &none   &kp A   &none   &none    &kp A    &none    &none  &kp A  &kp AT  &kp A  &kp PIPE  &kp A  &kp A
+ &kp A            &kp A          &kp A          &kp A              &kp A             &kp A   &kp A  &kp A   &kp A   &kp A   &kp A    &kp A    &kp A    &kp A  &kp A   &kp A
             >;
         };
 
