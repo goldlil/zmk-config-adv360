@@ -72,7 +72,7 @@
 &kp F1           &kp F2       &kp HASH   &kp ASTERISK          &kp ASTRK            &kp F6  &tog 1  &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
  &trans           &trans      &kp MINUS     &kp DOLLAR          &kp UNDER         &kp GRAVE   &trans  &trans   &trans   &trans   &trans    &trans    &trans    &trans
  &trans     &kp QUESTION  &kp BACKSLASH   &kp KP_EQUAL  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &trans  &trans   &trans                    &trans    &trans    &trans  &trans   &trans  &trans     &trans  &trans  &trans
- &trans  &kp EXCLAMATION      &kp COLON  &kp SEMICOLON           &kp PLUS       &kp PERCENT   &trans  &trans   &trans   &trans   &trans    &trans    &trans    &trans  &trans  &transT  &trans  &kp PIPE  &trans  &trans
+ &trans  &kp EXCLAMATION      &kp COLON  &kp SEMICOLON           &kp PLUS       &kp PERCENT   &trans  &trans   &trans   &trans   &trans    &trans    &trans    &trans  &trans  &trans  &trans  &kp PIPE  &trans  &trans
  &trans            &trans          &trans          &trans              &trans             &trans   &trans  &trans   &trans   &trans   &trans    &trans    &trans    &trans  &trans   &trans
             >;
         };
