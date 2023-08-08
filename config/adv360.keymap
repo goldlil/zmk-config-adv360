@@ -54,7 +54,6 @@
             flavor = "balanced";
             quick-tap-ms = <125>;
             hold-trigger-on-release;
-            retro-tap;
             hold-trigger-key-positions = <61>;
         };
     };
