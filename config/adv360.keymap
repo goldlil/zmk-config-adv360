@@ -42,6 +42,21 @@
                 <&mo>,
                 <&kp>;
         };
+        thb: tap_hold_balanced {
+            compatible = "zmk,behavior-hold-tap";
+            label = "THB";
+            bindings =
+                <&kp>,
+                <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+            quick-tap-ms = <125>;
+            hold-trigger-on-release;
+            retro-tap;
+            hold-trigger-key-positions = <61>;
+        };
     };
 
     keymap {
@@ -49,11 +64,11 @@
 
         default_layer {
             bindings = <
-&kp C_VOLUME_UP     &kp N1    &kp N2  &kp UP_ARROW     &kp N4    &kp N5                     &tog 1         &mo 3      &kp N6     &kp N7   &kp DOWN     &kp N9        &kp N0  &kp MINUS
-   &kp C_VOL_DN      &kp Q     &kp W         &kp L      &kp P     &kp B                      &none         &none       &kp J      &kp F      &kp U      &kp Y         &kp P   &kp BSLH
-        &kp ESC      &kp A     &kp R         &kp S      &kp T     &kp G                      &none     &kp LCTRL    &kp LALT                         &kp LGUI  &kp LEFT_ALT      &none     &kp M  &tlb 3 N      &tlb 1 E    &kp I  &kp O  &kp RIGHT
-      &kp LSHFT      &kp Z     &kp V         &kp C      &kp D     &kp X                      &none         &none    &kp HOME      &none      &none  &kp PG_UP         &none      &none     &kp Q     &kp H  &tlb 2 COMMA  &kp DOT  &kp K  &kp RSHFT
-          &mo 2  &kp GRAVE  &kp CAPS      &kp LEFT  &kp RIGHT  &kp BSPC  &kp RS(RA(RC(RG(SPACE))))  &kp LEFT_GUI  &kp ESCAPE  &kp ENTER  &kp SPACE     &kp UP      &kp DOWN   &kp LBKT  &kp RBKT     &mo 2
+&kp C_VOLUME_UP     &kp N1    &kp N2  &kp UP_ARROW     &kp N4    &kp N5                     &tog 1         &mo 3      &kp N6     &kp N7               &kp DOWN     &kp N9        &kp N0  &kp MINUS
+   &kp C_VOL_DN      &kp Q     &kp W         &kp L      &kp P     &kp B                      &none         &none       &kp J      &kp F                  &kp U      &kp Y         &kp P   &kp BSLH
+        &kp ESC      &kp A     &kp R         &kp S      &kp T     &kp G                      &none     &kp LCTRL    &kp LALT                                     &kp LGUI  &kp LEFT_ALT      &none     &kp M  &tlb 3 N      &tlb 1 E    &kp I  &kp O  &kp RIGHT
+      &kp LSHFT      &kp Z     &kp V         &kp C      &kp D     &kp X                      &none         &none    &kp HOME      &none                  &none  &kp PG_UP         &none      &none     &kp Q     &kp H  &tlb 2 COMMA  &kp DOT  &kp K  &kp RSHFT
+          &mo 2  &kp GRAVE  &kp CAPS      &kp LEFT  &kp RIGHT  &kp BSPC  &kp RS(RA(RC(RG(SPACE))))  &kp LEFT_GUI  &kp ESCAPE  &kp ENTER  &thb LEFT_SHIFT SPACE     &kp UP      &kp DOWN   &kp LBKT  &kp RBKT     &mo 2
             >;
         };
 
