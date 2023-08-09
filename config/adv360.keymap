@@ -64,7 +64,7 @@
    &kp C_VOL_DN      &kp Q     &kp W         &kp L      &kp P     &kp B    &none         &none       &kp J      &kp F                  &kp U      &kp Y         &kp P   &kp BSLH
         &kp ESC      &kp A     &kp R         &kp S      &kp T     &kp G    &none     &kp LCTRL    &kp LALT                                     &kp LGUI  &kp LEFT_ALT      &none     &kp M  &tlb 3 N      &tlb 1 E    &kp I  &kp O  &kp RIGHT
       &kp LSHFT      &kp Z     &kp V         &kp C      &kp D     &kp X    &none         &none    &kp HOME      &none                  &none  &kp PG_UP         &none      &none     &kp Q     &kp H  &tlb 2 COMMA  &kp DOT  &kp K  &kp RSHFT
-          &mo 2  &kp GRAVE  &kp CAPS      &kp LEFT  &kp RIGHT  &kp BSPC  &kp F18  &kp LEFT_GUI  &kp ESCAPE  &kp ENTER  &thb LEFT_SHIFT SPACE     &kp UP      &kp DOWN   &kp LBKT  &kp RBKT     &mo 2
+          &mo 2  &kp GRAVE  &kp CAPS      &kp LEFT  &kp RIGHT  &kp BSPC  &kp F11  &kp LEFT_GUI  &kp ESCAPE  &kp ENTER  &thb LEFT_SHIFT SPACE     &kp UP      &kp DOWN   &kp LBKT  &kp RBKT     &mo 2
             >;
         };
 
