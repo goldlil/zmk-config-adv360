@@ -55,21 +55,6 @@
         };
     };
 
-    macros {
-        delete_macro: delete_macro {
-            compatible = "zmk,behavior-macro";
-            label = "DELETE_MACRO";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp RIGHT_ALT &kp RIGHT_CONTROL &kp RIGHT_COMMAND>,
-                <&macro_tap>,
-                <&kp RIGHT_ALT &kp RIGHT_CONTROL &kp RIGHT_COMMAND &kp A>,
-                <&macro_release>,
-                <&kp RIGHT_ALT &kp RIGHT_CONTROL &kp RIGHT_COMMAND>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
