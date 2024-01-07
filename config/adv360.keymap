@@ -56,11 +56,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_tap>,
-                <&kp LC(LG(PERIOD))>,
-                <&macro_tap>,
-                <&kp LG(K)>;
-
+                <&macro_tap &kp LC(LG(PERIOD))>,
+                <&macro_tap &kp LG(K)>;
+                
             label = "NEW_MACRO";
         };
     };
