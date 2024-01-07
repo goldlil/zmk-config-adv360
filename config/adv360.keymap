@@ -50,16 +50,19 @@
             flavor = "balanced";
         };
     };
-
-    macros {
-        test_macro: test_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp A>;
-
-            label = "TEST_MACRO";
-        };
+    {
+        macros {
+            zed_em_kay: zed_em_kay {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings
+                    = <&macro_press &kp LSHFT>
+                    , <&macro_tap &kp Z &kp M &kp K>
+                    , <&macro_release &kp LSHFT>
+                    ;
+            };
     };
+
 
     keymap {
         compatible = "zmk,keymap";
