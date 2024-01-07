@@ -52,6 +52,13 @@
     };
 
     macros {
+        test_macro: test_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp A>;
+
+            label = "TEST_MACRO";
+        };
     };
 
     keymap {
