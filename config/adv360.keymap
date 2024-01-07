@@ -50,7 +50,7 @@
             flavor = "balanced";
         };
     };
-    {
+/   {
         macros {
             zed_em_kay: zed_em_kay {
                 compatible = "zmk,behavior-macro";
@@ -61,6 +61,7 @@
                     , <&macro_release &kp LSHFT>
                     ;
             };
+        };
     };
 
 
