@@ -55,7 +55,11 @@
         new_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LG(PERIOD)) &kp LG(K)>, <&macro_tap>;
+            bindings =
+                <&macro_tap>,
+                <&kp LC(LG(PERIOD))>,
+                <&macro_tap>,
+                <&kp LG(K)>;
 
             label = "NEW_MACRO";
         };
